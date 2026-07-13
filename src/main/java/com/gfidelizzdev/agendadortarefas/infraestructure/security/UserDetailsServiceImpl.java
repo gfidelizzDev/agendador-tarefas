@@ -1,12 +1,10 @@
 package com.gfidelizzdev.agendadortarefas.infraestructure.security;
 
 import com.gfidelizzdev.agendadortarefas.business.dto.UsuarioDTO;
-import com.gfidelizzdev.agendadortarefas.infraestructure.Client.UsuarioClient;
+import com.gfidelizzdev.agendadortarefas.infraestructure.security.Client.UsuarioClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 @Service
